@@ -1,4 +1,6 @@
 import "./App.css";
+import LineCharts from "./Components/LineCharts/LineCharts";
+import Phones from "./Components/Phones/Phones";
 import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
@@ -76,6 +78,8 @@ function App() {
         </div>
       </div>
       <PriceOptions></PriceOptions>
+      <LineCharts></LineCharts>
+      <Phones></Phones>
     </>
   );
 }
